@@ -1,0 +1,65 @@
+.breadcrumb{
+	justify-content: center;
+}
+.breadcrumb a{
+	text-decoration: none;
+	color: black;
+}
+.breadcrumb a:hover{
+	text-decoration: none;
+	color: #ff6900;
+}
+.breadcrumb i{
+	margin: 0px 5px;
+}
+.detail_content{
+	margin: 50px 13%;
+}
+.slide_img{
+	border-bottom: 1px solid#ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+.slide_img1{
+	display: none;
+}
+.slide_img1 img{
+	width: 100%;
+}
+.slide_img_ative{
+	display: block;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+ }
+ h2{
+   text-align:center;
+   text-shadow: 0px 10px 10px #234D3C;
+ }
+ /*Thiết lập độ rộng, vị trí cho slider*/
+ .container{
+   margin: auto;
+   width: 40%;
+   box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+               0 2px 2px rgba(0,0,0,0.12),
+               0 4px 4px rgba(0,0,0,0.12),
+               0 8px 8px rgba(0,0,0,0.12),
+               0 16px 16px rgba(0,0,0,0.12);
+ }
+/*Thiết lập hình ảnh có độ dài và độ rộng toàn bộ slider*/
+.splide img{
+   width: 100%;
+   height:100%;
+ }
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.detail_content{
+		margin: 50px 8% !important;
+	}
+}
+@media screen and (max-width: 768px){
+	.detail_content{
+		margin: 50px 5% !important;
+	}
+}

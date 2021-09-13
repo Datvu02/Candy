@@ -1,0 +1,97 @@
+.breadcrumb{
+	justify-content: center;
+}
+.breadcrumb a{
+	text-decoration: none;
+	color: black;
+}
+.breadcrumb a:hover{
+	text-decoration: none;
+	color: #ff6900;
+}
+.breadcrumb i{
+	margin: 0px 5px;
+}
+.checkout_content{
+	margin: 50px 13%;
+}
+input{
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	margin: 10px 0px !important;
+}
+select{
+	width: 100%;
+	height: 40px;
+	margin: 10px 0px !important;
+}
+.detail span{
+	color: red;
+}
+.check{
+	width: 13px;
+	height: 13px;
+	margin: 6px 18px !important;
+}
+.note{
+	margin-top: 50px;
+}
+textarea{
+	padding-left: 10px;
+}
+.order span{
+	float: right;
+}
+.order_content{
+	background: #dfdfdf;
+	padding: 20px;
+}
+.product{
+	border-top: 1px solid;
+	padding: 20px 0px;
+}
+.ship{
+	border-top: 1px solid;
+	padding: 20px 0px;
+}
+.method{
+	border-top: 1px solid;
+	padding: 20px 0px;
+}
+.total{
+	border-top: 1px solid;
+	padding: 20px 0px;
+}
+.place{
+	text-align: center;
+	margin-top: 30px;
+}
+.place a{
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid #ff6900;
+	border-radius: 5px;
+	color: #ff6900;
+	font-weight: 600;
+	padding: 10px 15px;
+}
+.place a:hover{
+	text-decoration: none;
+	color: white;
+	background: #ff6900;
+	border: 0;
+}
+.error{
+	color: red;
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.checkout_content{
+		margin: 50px 8% !important;
+	}
+}
+@media screen and (max-width: 768px){
+	.checkout_content{
+		margin: 50px 5% !important;
+	}
+}

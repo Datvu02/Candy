@@ -1,0 +1,145 @@
+.breadcrumb{
+	justify-content: center;
+}
+.breadcrumb a{
+	text-decoration: none;
+	color: black;
+}
+.breadcrumb a:hover{
+	text-decoration: none;
+	color: #ff6900;
+}
+.breadcrumb i{
+	margin: 0px 5px;
+}
+.Dear{
+	padding: 30px 13%;
+}
+.blog_list_content{
+	margin-top: 20px;
+}
+.blog_list_content img{
+	width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.blog_list_content_btn{
+    border: 1px solid red;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.blog_list_content_btn a{
+	text-decoration: none;
+	color: red;
+	font-weight: 500;
+}
+.blog_list_content_btn:hover{
+	background-color: red;
+	border: 0;
+}
+.blog_list_content_btn:hover a{
+	text-decoration: none;
+	color: white;
+}
+.blog_list_content_title{
+	padding-top: 20px;
+}
+.blog_list_content_title h2 a{
+	text-decoration: none;
+	color: black;
+}
+.blog_list_content_title h2 a:hover{
+	text-decoration: none;
+	color: #ff6900;
+}
+.time_blog{
+	color: #706e6e;
+    font-weight: 500;
+}
+.time_blog span{
+	margin-left: 30px;
+}
+.next_pre{
+	margin-left: 35%;
+    margin-top: 44px;
+    font-size: 20px;
+}
+.pagination a{
+	color: black;
+	cursor: pointer;
+}
+.pagination a:hover{
+	color: #ff6900;
+}
+.page1{
+	display: block;
+}
+.page2{
+	display: none;
+}
+.custom_menu li{
+	list-style: none;
+}
+.custom_menu a{
+	text-decoration: none;
+	color: black;
+}
+.custom_menu a:hover{
+	text-decoration: none;
+	color: red;
+}
+.recent_post_content{
+	margin: 20px 0px;
+}
+.recent_post{
+	margin-top: 50px;
+}
+.recent_post img{
+	width: 30%;
+	height: 70px;
+	cursor: pointer;
+}
+.recent_post p{
+	margin: 0;
+}
+.recent_post a{
+	width : 100px;
+  	overflow:hidden;
+  	display:inline-block;
+  	text-overflow: ellipsis;
+  	white-space: nowrap;
+}
+.list_a_content{
+	background: #ccc;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin: 10px 5px;
+}
+.list_a_content a{
+	text-decoration: none;
+	color: #4f4e4e;
+}
+.list_a_title{
+	margin-top: 50px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.recent_post img{
+		height: 110px;
+	}
+	.recent_post a{
+		width: 300px;
+	}
+}
+@media screen and (max-width: 768px){
+	.recent_post a{
+		width: 200px;
+	}
+	.next_pre{
+		margin-left: 22%;
+	}
+	h2{
+		font-size: 20px !important;
+		margin: 5px 0px;
+	}
+}

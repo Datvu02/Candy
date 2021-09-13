@@ -1,0 +1,274 @@
+.breadcrumb{
+	justify-content: center;
+}
+.breadcrumb a{
+	text-decoration: none;
+	color: black;
+}
+.breadcrumb a:hover{
+	text-decoration: none;
+	color: #ff6900;
+}
+.breadcrumb i{
+	margin: 0px 5px;
+}
+.top_categories_two{
+	padding: 30px 13%;
+}
+.horizontal{
+	padding: 30px 13%;
+}
+.img_title_shop{
+	background-image:linear-gradient( rgba(9, 38, 94, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url(../images/nuts-food-sweets-chocolate-1845281-wallhere.com.jpg);
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding-top: 13%;
+	color: white;
+	padding-left: 50px;
+}
+.img_title_shop a{
+	color: #ff6900;
+	text-decoration: none;
+	border: 1px solid #ff6900;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: 
+}
+.img_title_shop a:hover{
+	color:white;
+	text-decoration: none;
+	border:0;
+	background-color: #ff6900
+}
+.top_categories_two{
+    margin-top: 5s0px; 
+}
+.top_categories_two_title{
+	display: flex;
+}
+.transfer{
+	margin-left: 50%;
+    line-height: 50px;
+}
+.transfer span{
+	margin-left: 20px;
+	color: black;
+	cursor: pointer;
+}
+.transfer span:hover{
+	color: #ff6900;
+}
+.top_categories_two_content{
+	padding-top: 30px;
+}
+.two_content{
+	border: 1px solid #ccc;
+	position: relative;
+	margin-top: 20px;
+}
+.two_content img{
+	height: 171px;
+    object-fit: contain;
+}
+.two_content:hover{
+	border: 1px solid #ff6900;
+}
+.two_content:hover .time_discount{
+	display: block;
+}
+.evaluate{
+	margin-top: 30px;
+}
+.evaluate i{
+	color: #ff6900;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.two_content p{
+	font-size: 20px;
+    font-weight: 500;
+}
+.two_content span{
+	text-decoration: line-through;
+	color: #ccc;
+	font-size: 16px;
+}
+.two_content a{
+	color: black;
+	text-decoration: none;
+}
+.two_content a:hover{
+	color: #ff6900;
+	text-decoration: none;
+}
+.discount{
+	width: 40px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.discount p{
+	font-size: 13px;
+    color: white;
+}
+.time_discount{
+	position: absolute;
+    display: none;
+    right: 0;
+    top: 5px;
+}
+.time_discount_content{
+	width: 45px;
+    height: 45px;
+    padding: 2px;
+    background-color: #ff6900;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.time_discount_content h6{
+	font-size: 15px;
+    margin-bottom: 0;
+}
+.time_discount_content p{
+	font-size: 10px;
+    margin-bottom: 0;
+}
+.arrange{
+	justify-content: center;
+}
+.control{
+	border: 1px solid;
+    line-height: 40px;
+    height: 40px;
+}
+.arrange{
+	justify-content: flex-start;
+	display: flex;
+}
+.arrange i{
+	margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sort{
+	display: flex;
+    justify-content: center;
+}
+select{
+	width: 130%;
+	margin-left: 10px !important;
+}
+.page1{
+}
+.page2{
+	display: none ;
+}
+.nav{
+	justify-content: center;
+	margin-top: 30px;
+}
+.nav li{
+	cursor: pointer;
+}
+.nav a{
+	color: #ff6900;
+}
+.media{
+	position: relative;
+	margin: 0 !important;
+	margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+}
+.media span{
+	text-decoration: line-through;
+}
+.media img{
+	padding: 30px;
+	width: 300px;
+}
+.media a{
+	color: black;
+	font-weight: 500;
+}
+.media a:hover{
+	color: #ff6900;
+}
+.add_cart a{
+	color: #ff6900;
+	border: 1px solid #ff6900;
+    padding: 5px 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.add_cart a:hover{
+	color: white;
+	border:0;
+	background-color: #ff6900;
+	text-decoration: none;
+}
+.tab1{
+	display: block;
+}
+.tab2{
+	display: none;
+}
+.add_cart i{
+	font-size: 20px;
+    margin: 5px 10px;
+}
+.control {
+	margin: 0 !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1024px){
+	.top_categories_two{
+		padding: 30px 8%;
+	}
+	.horizontal{
+		padding: 30px 8%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.shop_content {
+    	padding: 30px 5%;
+	}
+	.top_categories_two{
+		padding: 30px 5%;
+	}
+	.horizontal{
+		padding: 30px 5%;
+	}
+	
+}
+@media screen and (max-width: 768px){
+	.arrange{
+		justify-content: center;
+	}
+	.control{
+		height: 150px;
+	}
+	.sort{
+		text-align: center;
+	}
+	.resuft{
+		text-align: center;
+	}
+	.top_categories_two{
+		padding: 30px 2%;
+	}
+	.horizontal{
+		padding: 30px 2%;
+	}
+}

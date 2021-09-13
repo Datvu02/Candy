@@ -1,0 +1,36 @@
+.breadcrumb{
+	justify-content: center;
+}
+.breadcrumb a{
+	text-decoration: none;
+	color: black;
+}
+.breadcrumb a:hover{
+	text-decoration: none;
+	color: #ff6900;
+}
+.breadcrumb i{
+	margin: 0px 5px;
+}
+.about_content{
+	padding: 50px 5%;
+}
+.content{
+	padding: 10px 5px;
+}
+.content p{
+	margin: 20px 0px;
+}
+.about_content_end{
+	margin: 50px 0px;
+}
+.contents{
+	padding: 5px;
+}
+.contents i{
+	font-size: 50px;
+    color: #605e5e;
+}
+.contents h5{
+	margin: 10px 0px;
+}
