@@ -6,8 +6,45 @@
 body{
 	font-family: 'Kaisei HarunoUmi', serif;
 }
+.name_two_content{
+	margin: 0px 10px;
+	font-size: 16px;
+
+}
+
+.time_discount{
+	position: absolute;
+    display: none;
+    right: 10px;
+    top: 15px;
+}
+.time_discount_content{
+	
+    padding: 4px 6px 4px 6px;
+    background-color: #ff6900;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.time_discount_content:hover{
+	background: #e8d000;
+}
 .page_row{
 	margin: 0 !important;
+}
+.discount{
+    position: absolute;
+    top: -4.5px !important;
+    left: 5px !important;
+}
+.discount span{
+	text-decoration: none !important;
+    color: white !important;
+    position: absolute;
+    left: 0;
+    font-size: 13px !important;
+    top: 5px;
 }
 .page_col{
 	padding: 0 !important;
@@ -49,6 +86,15 @@ body{
 	height: 35px;
     line-height: 35px;
 }
+.name_two_content i{
+	margin: 0px 10px;
+	font-size: 16px;
+	color: gray;
+}
+.Selection a:hover{
+	text-decoration: none;
+	color: white;
+}
 .free_delivery p{
 }
 .Selection a{
@@ -71,6 +117,7 @@ body{
 .language_content{
 	position: fixed;
 	display: none;
+	top: 30px;
 	z-index: 2;
 	width: 10%;
 	padding-left: 10px;
@@ -114,7 +161,7 @@ body{
 	padding-left: 10px;
     padding-top: 10px;
 	z-index: 2;
-    width: 22.6%;
+    width: 25%;
     position: fixed;
     background-color: #ff6900;
 }
@@ -171,7 +218,7 @@ body{
 	position: absolute;
     right: -5px;
     top: 12px;
-    background: red;
+    background: #388d52;
     color: white;
     padding: 2px 4px;
     border-radius: 50%;
@@ -230,7 +277,7 @@ body{
   padding: 1ch 1.5ch;
   border-radius: 10px;
   box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
-  background: red;
+  background: #388d52;
   color: #fff;
   font-size: 10px;
   z-index: 1000; /* absurdity 2 */
@@ -241,7 +288,7 @@ body{
 [tooltip][flow^="up"]::before {
   bottom: 100%;
   border-bottom-width: 0;
-  border-top-color: red;
+  border-top-color: #388d52;
 }
 [tooltip]:not([flow])::after,
 [tooltip][flow^="up"]::after {
@@ -362,7 +409,7 @@ a{
 #flip_up_menu{
 	position: relative;
 	z-index: 999;
-	line-height: 60px;
+	line-height: 83px;
 }
 .preface_list{
 	width: 60%;

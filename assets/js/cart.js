@@ -29,30 +29,41 @@ $(document).ready(function(){
         spinner.find("input").val(newVal);
         spinner.find("input").trigger("change");
       });
+
     });
 
-    $('.ReceivingAddress_btn').on('click', function(){
-    	if ($('#sel1').val() == '0') {
-    		$('#country_error').text("Please select country");
-    	}else{
-    		$('#country_error').text("");
-    	}
-    	if ($('#sel2').val() == '0') {
-    		$('#region_error').text("Please select the region");
-    	}else{
-    		$('#region_error').text("");
-    	}
-    	if ($('.code2').val().length == 0) {
-    		$('#zip_error').text("Please enter the postal code");
-    	}else{
-    		$('#zip_error').text("");
-    	}
-    })
-     $('.coupon_btn').on('click', function(){
-     	if ($('.code1').val().length == 0) {
-    		$('#coupon_content_error').text("Please enter the postal code");
-    	}else{
-    		$('#coupon_content_error').text("");
-    	}
-     })
+  $('.ReceivingAddress_btn').on('click', function(){
+  	if ($('#sel1').val() == '0') {
+  		$('#country_error').text("Please select country");
+  	}else{
+  		$('#country_error').text("");
+  	}
+  	if ($('#sel2').val() == '0') {
+  		$('#region_error').text("Please select the region");
+  	}else{
+  		$('#region_error').text("");
+  	}
+  	if ($('.code2').val().length == 0) {
+  		$('#zip_error').text("Please enter the postal code");
+  	}else{
+  		$('#zip_error').text("");
+  	}
+  })
+  $('.coupon_btn').on('click', function(){
+   	if ($('.code1').val().length == 0) {
+  		$('#coupon_content_error').text("Please enter the postal code");
+  	}else{
+  		$('#coupon_content_error').text("");
+  	}
+  })
+  $('.delete').on('click', function(){
+    console.log('cạdjạ')
+    $('.your_cart_content').eq(0).css('display', 'none');
+  })
+  $('.delete1').on('click', function(){
+    $('.your_cart_content').eq(1).css('display', 'none');
+  })
+  $('.delete2').on('click', function(){
+    $('.your_cart_content').eq(2).css('display', 'none');
+  })
 })

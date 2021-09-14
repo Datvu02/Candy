@@ -307,42 +307,7 @@ a:hover{
 	color: #ff6900;
 	text-decoration: none;
 }
-.discount{
-	width: 40px;
-    height: 20px;
-    background-color: red;
-    border-radius: 20px;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-}
-.discount p{
-	font-size: 13px;
-    color: white;
-}
-.time_discount{
-	position: absolute;
-    display: none;
-    right: 0;
-    top: 5px;
-}
-.time_discount_content{
-	width: 45px;
-    height: 45px;
-    padding: 2px;
-    background-color: #ff6900;
-    color: white;
-    border-radius: 50%;
-    margin-bottom: 5px;
-}
-.time_discount_content h6{
-	font-size: 15px;
-    margin-bottom: 0;
-}
-.time_discount_content p{
-	font-size: 10px;
-    margin-bottom: 0;
-}
+
 .top_categories_two_content_ative{
 	display: flex !important;
 }
