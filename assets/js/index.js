@@ -52,12 +52,12 @@ $(document).ready(function(){
 	})
 	$('.new_product_content').owlCarousel({
 	    loop: true,
-  		nav: true,
+  		nav: false,
 	 	items: 1,
 	  	autoplay: true,
 	  	autoplayTimeout: 2000,
 	  	autoplayHoverPause: true,
-	  	dots: true,
+	  	dots: false,
 	    responsive:{
 	        0:{
 	            items:1
@@ -66,7 +66,7 @@ $(document).ready(function(){
 	            items:2
 	        },
 	        992:{
-	            items:3
+	            items:4
 	        }
 	    },
 	})
