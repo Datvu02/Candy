@@ -12,7 +12,9 @@
 	text-decoration: none;
 	color: #ff6900;
 }
-
+.row i{
+	cursor: pointer;
+}
 .blog_content{
 	padding: 50px 13%;
 }
