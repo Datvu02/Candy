@@ -96,6 +96,7 @@
 	margin-top: 50px;
 }
 .recent_post img{
+	object-fit: cover;
 	width: 30%;
 	height: 70px;
 	cursor: pointer;
