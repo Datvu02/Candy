@@ -302,16 +302,27 @@ a{
 .error{
 	color: red;
 }
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 993px) and (max-width: 1025px){
+	.cart_content{
+		margin: 50px 5% !important;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
 	.your_cart_btn{
 		justify-content: center;
 	}
 	.prev_shop{
 		text-align: center;
 	}
+	.cart_content{
+		margin: 50px 2% !important;
+	}
 }
 @media screen and (max-width: 768px){
 	.your_cart_btn{
 		text-align: center;
+	}
+	.cart_content{
+		margin: 50px 2% !important;
 	}
 }

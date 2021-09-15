@@ -172,10 +172,12 @@ body{
 .category_title i{
 	font-size: 20px;
     margin: 5px;
+    cursor: pointer;
     margin-top: 15px;
 }
 .category_title h5{
 	line-height: 50px;
+	cursor: pointer;
 }
 .category_list{
 	display: none;
@@ -623,6 +625,11 @@ a{
 .sticky .list_page{
 	background-color: #ff6900;
 }
+@media screen and (min-width: 993px) and (max-width: 1025px){
+	.owl-carousel .owl-item img{
+		width: 70% !important;
+	}
+}
 @media screen and (min-width: 768px) and (max-width: 992px){
 	.header{
 		display: none;
@@ -707,9 +714,15 @@ a{
 	.search{
 		margin: 0;
 	}
+	.owl-carousel .owl-item img{
+		width: 50% !important;
+	}
 	
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
+	.owl-carousel .owl-item img{
+		width: 30% !important;
+	}
 	.header{
 		display: none;
 	}

@@ -115,6 +115,7 @@
 	border: 1px solid;
     line-height: 40px;
     height: 40px;
+    margin: 0px 13% !important;
 }
 .arrange{
 	justify-content: flex-start;
@@ -151,7 +152,7 @@ select{
 .media{
 	position: relative;
 	margin: 0 !important;
-	margin-top: 20px;
+	margin-top: 20px !important;
     border: 1px solid #ccc;
     padding: 20px 10px;
 }
@@ -193,35 +194,42 @@ select{
 	font-size: 20px;
     margin: 5px 10px;
 }
-.control {
-	margin: 0 !important;
-}
 @media screen and (min-width: 992px) and (max-width: 1024px){
+	.control{
+		margin: 0px 8% !important;
+		padding-top: 10px !important;
+	}
 	.top_categories_two{
 		padding: 30px 8%;
 	}
 	.horizontal{
 		padding: 30px 8%;
+	}
+	.top_categories_two{
+		margin: 30px 8%;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
-	.shop_content {
-    	padding: 30px 5%;
-	}
 	.top_categories_two{
 		padding: 30px 5%;
 	}
 	.horizontal{
 		padding: 30px 5%;
 	}
-	
+	.control{
+		padding-top: 8px !important;
+		margin: 0px 5% !important;
+	}
+	.top_categories_two{
+		margin: 30px 3%;
+	}
 }
 @media screen and (max-width: 768px){
 	.arrange{
 		justify-content: center;
 	}
 	.control{
-		height: 150px;
+		height: auto;
 	}
 	.sort{
 		text-align: center;
@@ -234,5 +242,12 @@ select{
 	}
 	.horizontal{
 		padding: 30px 2%;
+	}
+	.control{
+		padding-top: 5px !important;
+		margin: 0px 2% !important;
+	}
+	.top_categories_two{
+		margin: 30px 2%;
 	}
 }
