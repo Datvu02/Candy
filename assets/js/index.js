@@ -60,10 +60,10 @@ $(document).ready(function(){
 	  	dots: false,
 	    responsive:{
 	        0:{
-	            items:1
+	            items:2
 	        },
 	        768:{
-	            items:2
+	            items:3
 	        },
 	        992:{
 	            items:4

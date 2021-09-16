@@ -627,7 +627,7 @@ a{
 }
 @media screen and (min-width: 993px) and (max-width: 1025px){
 	.owl-carousel .owl-item img{
-		width: 70% !important;
+		width: 90% !important;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -715,13 +715,15 @@ a{
 		margin: 0;
 	}
 	.owl-carousel .owl-item img{
-		width: 50% !important;
+		width: 60% !important;
+		margin-left: 20% !important;
 	}
 	
 }
 @media screen and (max-width: 767px){
 	.owl-carousel .owl-item img{
-		width: 30% !important;
+		width: 60% !important;
+		margin-left: 20% !important;
 	}
 	.header{
 		display: none;
